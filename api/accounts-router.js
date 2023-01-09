@@ -26,3 +26,4 @@ router.get('/', (req, res) => {
         })
     })
 })
+
