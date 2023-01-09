@@ -7,6 +7,12 @@ module.exports = {
     connection: {
       filename: './data/database_file.db3',
     },
+    migrations: {
+      directory: './migrations'
+    },
+    seeds: {
+      directory: './seeds',
+    },
     // necessary when using sqlite3
     useNullAsDefault: true
   }
